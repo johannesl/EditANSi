@@ -1,0 +1,42 @@
+;/*
+;
+;  EditANSi - The Innovative ANSi Editor
+;
+;  Copyright (c) 2004 Johannes Lundberg, released to the public domain.
+;
+;  Coded using the 8086 instruction set.
+;  Assemble with Netwide Assembler (NASM).
+;
+;*/
+
+;/*
+;  Additional 2011 notes:
+;
+;  Arrow keys       Move the cursor around
+;  Regular keys     Draw the entered ascii key at current cursor position
+;  F1-F10           Draw char 1-10 from set to current cursor position
+;  Shift + Up       Change foreground color
+;  Shift + Down     Same same but different
+;  Shift + Right    Change background color
+;  Shift + Left     Same same but different
+;  Alt + U          Pick up color from current position
+;  Alt + Z          Change the color of character at current position
+;  Alt + S          Save current drawing to EASAVE22.BIN
+;  Alt + L          Clear current drawing, and load from EASAVE22.BIN
+;  ESC, Y           Quit program
+;
+;
+;  If you want to play around, remove the DOS file support and it will fit
+;  into the boot sector of a floppy disk or USB MBR for that matter.
+;
+;  Credits to my brother Per Lundberg for introducing me to the world of
+;  ANSI graphics and BBSes. Also credits to Eric "xzip" Knutsson for his
+;  moral support on all the nostalgic BBS journeys I set course on.
+;
+;  I actually got use of this in 2011 when creating the arts for price
+;  tickets at Birdie 21 in Uppsala. Sometimes it's fun with nostalgia.
+;
+;  Do whatever you want with the code and/or binaries.
+;  Contact: johannes.lundberg at gmail.com
+;
+;*/
